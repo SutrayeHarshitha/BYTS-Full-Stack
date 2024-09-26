@@ -1,0 +1,59 @@
+/* element selector */
+
+h1 {
+    color: red;
+    font-size: 3rem;
+}
+p {
+    color: white;
+    background-color: gray;
+}
+
+/* id and class selector */
+#div-container{
+    color: blue;
+    background-color: gray;
+}
+
+.paragraph-class {
+    color:white;
+    font-family: monospace;
+    background-color: purple;
+}
+
+/* universal selector */
+* {
+    color: white;
+    background-color: black;
+}
+
+/* group selector--style all comma-separated elements with the same style. */
+#div-container, .paragraph-class, h1{
+    color: white;
+    background-color: purple;
+    font-family: monospace;    
+}
+
+/* Attribute selector */
+[href] {
+    background-color: lightgreen;
+    color: black;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+/* Pseudo class */
+/* syntax-
+Selector:Pseudo-Class {
+     Property: Value;
+} */
+h1:hover{
+    background-color: aqua;
+}
+ /* Pseudo element */
+ /* syntax-Selector:Pseudo-Element{
+     Property:Value; 
+} */
+p::first-line{
+    background-color: goldenrod;
+}

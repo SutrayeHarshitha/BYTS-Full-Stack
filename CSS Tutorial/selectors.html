@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[href="www.google.com"] {
+            color: pink;
+        }
+
+        #line-2 {
+            color: red;
+        }
+
+        #line-2:hover {
+            color: blue;
+        }
+
+        p:first-child {
+            color: green;
+        }
+
+        p:nth-child(4) {
+            color: pink;
+        }
+
+        /* creeating emoji */
+        li::before {
+            content: "❤";
+        }
+        li::after {
+            content:"❤";
+        }
+    </style>
+</head>
+
+<body>
+    <p>hello fr om line 1</p>
+    <p id="line-2">hello from line 2</p>
+    <p>hello from line 3</p>
+    <p class="last">hello from line 4</p>
+    <p class="last">hello from line 5</p>
+
+    <div> division </div>
+    <h1>heading</h1>
+
+
+    <a href="www.geeksforgeeks.com"> gfg</a> <br>
+    <a href="www.netflix.com">Netflix</a> <br>
+    <a href="www.hotstar.com">Hotstar</a>
+
+
+    <hr />
+    <input type="date and time">
+    <input type="number">
+    <input type="text">
+    <input type="password">
+
+
+    <div>
+        <p>item</p>
+        <p> item</p>
+    </div>
+
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+</body>
+
+</html>
